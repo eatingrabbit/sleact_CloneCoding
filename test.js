@@ -15,4 +15,5 @@ const objectA = {
     },
 }
 
+
 console.log(objectA.getname());
