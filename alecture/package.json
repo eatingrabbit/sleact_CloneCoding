@@ -1,7 +1,6 @@
 {
   "name": "alecture",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --env development",
@@ -71,5 +70,6 @@
     "prettier": "^2.2.1",
     "webpack": "^5.22.0",
     "webpack-dev-server": "^4.10.1"
-  }
+  },
+  "description": ""
 }
