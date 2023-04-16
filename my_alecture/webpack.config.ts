@@ -86,6 +86,8 @@ const config: Configuration = {
     port: 3090,
     devMiddleware: { publicPath: '/dist/' },
     static: { directory: path.resolve(__dirname) },
+
+    // 프록시 설정 -> 프론트엔드 localhost:3090에서 보내는 /api/ 요청은 localhost:3095로 주소를 바꿔서 보냄
     proxy: {
       '/api/': {
         target: 'http://localhost:3095',
